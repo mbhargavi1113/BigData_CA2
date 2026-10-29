@@ -1,0 +1,205 @@
+2026-10-29 18:16:09,294 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2026-10-29 18:16:09,615 INFO impl.MetricsConfig: Loaded properties from hadoop-metrics2.properties
+2026-10-29 18:16:09,708 INFO impl.MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+2026-10-29 18:16:09,708 INFO impl.MetricsSystemImpl: JobTracker metrics system started
+2026-10-29 18:16:10,180 INFO input.FileInputFormat: Total input files to process : 4
+2026-10-29 18:16:10,310 INFO mapreduce.JobSubmitter: number of splits:4
+2026-10-29 18:16:10,580 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local2069778057_0001
+2026-10-29 18:16:10,583 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2026-10-29 18:16:11,066 INFO mapred.LocalDistributedCacheManager: Creating symlink: /home/vboxuser/hadoopdata/tmp/mapred/local/job_local2069778057_0001_12fcf73e-86b4-43b4-a8e7-4f31acbd6a08/stopwords.txt <- /home/vboxuser/BigData_CA2/Question2/2a/stopwords
+2026-10-29 18:16:11,087 INFO mapred.LocalDistributedCacheManager: Localized file:/home/vboxuser/ca2/data/q2/stopwords.txt as file:/home/vboxuser/hadoopdata/tmp/mapred/local/job_local2069778057_0001_12fcf73e-86b4-43b4-a8e7-4f31acbd6a08/stopwords.txt
+2026-10-29 18:16:11,222 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+2026-10-29 18:16:11,229 INFO mapreduce.Job: Running job: job_local2069778057_0001
+2026-10-29 18:16:11,237 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+2026-10-29 18:16:11,256 INFO output.PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:16:11,261 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:16:11,262 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:16:11,269 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2026-10-29 18:16:11,389 INFO mapred.LocalJobRunner: Waiting for map tasks
+2026-10-29 18:16:11,396 INFO mapred.LocalJobRunner: Starting task: attempt_local2069778057_0001_m_000000_0
+2026-10-29 18:16:11,450 INFO output.PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:16:11,452 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:16:11,454 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:16:11,560 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2026-10-29 18:16:11,567 INFO mapred.MapTask: Processing split: file:/home/vboxuser/ca2/data/q2/corpus/corpus_part0.tsv:0+2591860
+2026-10-29 18:16:11,934 INFO mapred.LocalJobRunner: 
+2026-10-29 18:16:11,951 INFO mapred.Task: Task:attempt_local2069778057_0001_m_000000_0 is done. And is in the process of committing
+2026-10-29 18:16:11,955 INFO mapred.LocalJobRunner: 
+2026-10-29 18:16:11,958 INFO mapred.Task: Task attempt_local2069778057_0001_m_000000_0 is allowed to commit now
+2026-10-29 18:16:11,963 INFO output.FileOutputCommitter: Saved output of task 'attempt_local2069778057_0001_m_000000_0' to file:/home/vboxuser/BigData_CA2/Question2/2a/output
+2026-10-29 18:16:11,969 INFO mapred.LocalJobRunner: map
+2026-10-29 18:16:11,969 INFO mapred.Task: Task 'attempt_local2069778057_0001_m_000000_0' done.
+2026-10-29 18:16:12,015 INFO mapred.Task: Final Counters for attempt_local2069778057_0001_m_000000_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=2597162
+		FILE: Number of bytes written=3254511
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=5001
+		Map output records=5001
+		Input split bytes=120
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=65
+		Total committed heap usage (bytes)=206045184
+	Tokens
+		DOCUMENTS=5001
+		TOKENS_DROPPED_STOPWORD=141786
+		TOKENS_DROPPED_TOO_SHORT=5264
+		TOKENS_KEPT=249868
+	File Input Format Counters 
+		Bytes Read=2591860
+	File Output Format Counters 
+		Bytes Written=2605979
+2026-10-29 18:16:12,020 INFO mapred.LocalJobRunner: Finishing task: attempt_local2069778057_0001_m_000000_0
+2026-10-29 18:16:12,021 INFO mapred.LocalJobRunner: Starting task: attempt_local2069778057_0001_m_000001_0
+2026-10-29 18:16:12,030 INFO output.PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:16:12,031 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:16:12,031 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:16:12,035 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2026-10-29 18:16:12,047 INFO mapred.MapTask: Processing split: file:/home/vboxuser/ca2/data/q2/corpus/corpus_part2.tsv:0+2578797
+2026-10-29 18:16:12,240 INFO mapreduce.Job: Job job_local2069778057_0001 running in uber mode : false
+2026-10-29 18:16:12,252 INFO mapreduce.Job:  map 100% reduce 0%
+2026-10-29 18:16:12,427 INFO mapred.LocalJobRunner: 
+2026-10-29 18:16:12,428 INFO mapred.Task: Task:attempt_local2069778057_0001_m_000001_0 is done. And is in the process of committing
+2026-10-29 18:16:12,435 INFO mapred.LocalJobRunner: 
+2026-10-29 18:16:12,435 INFO mapred.Task: Task attempt_local2069778057_0001_m_000001_0 is allowed to commit now
+2026-10-29 18:16:12,437 INFO output.FileOutputCommitter: Saved output of task 'attempt_local2069778057_0001_m_000001_0' to file:/home/vboxuser/BigData_CA2/Question2/2a/output
+2026-10-29 18:16:12,441 INFO mapred.LocalJobRunner: map
+2026-10-29 18:16:12,441 INFO mapred.Task: Task 'attempt_local2069778057_0001_m_000001_0' done.
+2026-10-29 18:16:12,444 INFO mapred.Task: Final Counters for attempt_local2069778057_0001_m_000001_0: Counters: 20
+	File System Counters
+		FILE: Number of bytes read=5176458
+		FILE: Number of bytes written=5849850
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=5001
+		Map output records=5001
+		Input split bytes=120
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=4
+		Total committed heap usage (bytes)=274202624
+	Tokens
+		DOCUMENTS=5001
+		EMPTY_BODY_DOCUMENTS=1
+		TOKENS_DROPPED_STOPWORD=140669
+		TOKENS_DROPPED_TOO_SHORT=5165
+		TOKENS_KEPT=248830
+	File Input Format Counters 
+		Bytes Read=2578797
+	File Output Format Counters 
+		Bytes Written=2595339
+2026-10-29 18:16:12,448 INFO mapred.LocalJobRunner: Finishing task: attempt_local2069778057_0001_m_000001_0
+2026-10-29 18:16:12,450 INFO mapred.LocalJobRunner: Starting task: attempt_local2069778057_0001_m_000002_0
+2026-10-29 18:16:12,453 INFO output.PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:16:12,454 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:16:12,455 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:16:12,456 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2026-10-29 18:16:12,463 INFO mapred.MapTask: Processing split: file:/home/vboxuser/ca2/data/q2/corpus/corpus_part1.tsv:0+2575780
+2026-10-29 18:16:12,720 INFO mapred.LocalJobRunner: 
+2026-10-29 18:16:12,724 INFO mapred.Task: Task:attempt_local2069778057_0001_m_000002_0 is done. And is in the process of committing
+2026-10-29 18:16:12,726 INFO mapred.LocalJobRunner: 
+2026-10-29 18:16:12,727 INFO mapred.Task: Task attempt_local2069778057_0001_m_000002_0 is allowed to commit now
+2026-10-29 18:16:12,730 INFO output.FileOutputCommitter: Saved output of task 'attempt_local2069778057_0001_m_000002_0' to file:/home/vboxuser/BigData_CA2/Question2/2a/output
+2026-10-29 18:16:12,732 INFO mapred.LocalJobRunner: map
+2026-10-29 18:16:12,732 INFO mapred.Task: Task 'attempt_local2069778057_0001_m_000002_0' done.
+2026-10-29 18:16:12,735 INFO mapred.Task: Final Counters for attempt_local2069778057_0001_m_000002_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=7752737
+		FILE: Number of bytes written=8441281
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=5001
+		Map output records=5001
+		Input split bytes=120
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=274202624
+	Tokens
+		DOCUMENTS=5001
+		TOKENS_DROPPED_STOPWORD=140824
+		TOKENS_DROPPED_TOO_SHORT=5142
+		TOKENS_KEPT=248445
+	File Input Format Counters 
+		Bytes Read=2575780
+	File Output Format Counters 
+		Bytes Written=2591431
+2026-10-29 18:16:12,735 INFO mapred.LocalJobRunner: Finishing task: attempt_local2069778057_0001_m_000002_0
+2026-10-29 18:16:12,738 INFO mapred.LocalJobRunner: Starting task: attempt_local2069778057_0001_m_000003_0
+2026-10-29 18:16:12,745 INFO output.PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:16:12,747 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:16:12,750 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:16:12,752 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2026-10-29 18:16:12,756 INFO mapred.MapTask: Processing split: file:/home/vboxuser/ca2/data/q2/corpus/corpus_part3.tsv:0+2572123
+2026-10-29 18:16:13,100 INFO mapred.LocalJobRunner: 
+2026-10-29 18:16:13,104 INFO mapred.Task: Task:attempt_local2069778057_0001_m_000003_0 is done. And is in the process of committing
+2026-10-29 18:16:13,105 INFO mapred.LocalJobRunner: 
+2026-10-29 18:16:13,106 INFO mapred.Task: Task attempt_local2069778057_0001_m_000003_0 is allowed to commit now
+2026-10-29 18:16:13,107 INFO output.FileOutputCommitter: Saved output of task 'attempt_local2069778057_0001_m_000003_0' to file:/home/vboxuser/BigData_CA2/Question2/2a/output
+2026-10-29 18:16:13,112 INFO mapred.LocalJobRunner: map
+2026-10-29 18:16:13,113 INFO mapred.Task: Task 'attempt_local2069778057_0001_m_000003_0' done.
+2026-10-29 18:16:13,115 INFO mapred.Task: Final Counters for attempt_local2069778057_0001_m_000003_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=10325359
+		FILE: Number of bytes written=11027662
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=5001
+		Map output records=5001
+		Input split bytes=120
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=3
+		Total committed heap usage (bytes)=344457216
+	Tokens
+		DOCUMENTS=5001
+		TOKENS_DROPPED_STOPWORD=140478
+		TOKENS_DROPPED_TOO_SHORT=5291
+		TOKENS_KEPT=247774
+	File Input Format Counters 
+		Bytes Read=2572123
+	File Output Format Counters 
+		Bytes Written=2586381
+2026-10-29 18:16:13,115 INFO mapred.LocalJobRunner: Finishing task: attempt_local2069778057_0001_m_000003_0
+2026-10-29 18:16:13,116 INFO mapred.LocalJobRunner: map task executor complete.
+2026-10-29 18:16:13,360 INFO mapreduce.Job: Job job_local2069778057_0001 completed successfully
+2026-10-29 18:16:13,386 INFO mapreduce.Job: Counters: 20
+	File System Counters
+		FILE: Number of bytes read=25851716
+		FILE: Number of bytes written=28573304
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=20004
+		Map output records=20004
+		Input split bytes=480
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=72
+		Total committed heap usage (bytes)=1098907648
+	Tokens
+		DOCUMENTS=20004
+		EMPTY_BODY_DOCUMENTS=1
+		TOKENS_DROPPED_STOPWORD=563757
+		TOKENS_DROPPED_TOO_SHORT=20862
+		TOKENS_KEPT=994917
+	File Input Format Counters 
+		Bytes Read=10318560
+	File Output Format Counters 
+		Bytes Written=10379130
